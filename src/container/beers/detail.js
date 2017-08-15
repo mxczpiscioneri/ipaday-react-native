@@ -13,7 +13,9 @@ class Beers extends Component {
 
   componentWillMount() {
     const { params } = this.props.navigation.state;
-    this.props.getBeer(params.beerId);
+    let beerId = params || {};
+    beerId = beerId.beerId || '';
+    this.props.getBeer(beerId);
   }
 
   render() {

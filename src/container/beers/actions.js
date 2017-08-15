@@ -13,6 +13,7 @@ export const allBeers = () => {
           dispatch({ type: SHOW_LOADING, payload: false });
       })
       .catch(error => {
+        dispatch({ type: SHOW_LOADING, payload: false });
         ToastAndroid.show('Erro ao carregar as cervejas. ', ToastAndroid.LONG);
         console.log("Erro allBeers: ", error);
       });

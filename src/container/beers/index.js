@@ -20,8 +20,8 @@ class Beers extends Component {
       <Container>
         <Header style={{ backgroundColor: '#f94840' }} androidStatusBarColor='#f83830'>
           <Left>
-            <Button transparent>
-              <Icon name='arrow-back' />
+            <Button transparent onPress={() => this.props.navigation.navigate('DrawerOpen')}>
+              <Icon name='menu' />
             </Button>
           </Left>
           <Body>
