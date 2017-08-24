@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "239070115493",
+    "firebase_url": "https://ipaday-react.firebaseio.com",
+    "project_id": "ipaday-react",
+    "storage_bucket": "ipaday-react.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239070115493:android:a770bb1f18af953d",
+        "android_client_info": {
+          "package_name": "com.ipaday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239070115493-0fejq200o7s2htkj66n1jl3mjfq64n8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ipaday",
+            "certificate_hash": "77b3e00196135b616f17147bd410864261ff429c"
+          }
+        },
+        {
+          "client_id": "239070115493-j9hl4b0vdas6ua828ec8639v6o93tkbq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "239070115493-tf6nrcd7ubmt6k4lfsop8k5r4d3jaake.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIQU62eCKWWjBoY8akJhI8lShb2GT_kuM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239070115493-j9hl4b0vdas6ua828ec8639v6o93tkbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
