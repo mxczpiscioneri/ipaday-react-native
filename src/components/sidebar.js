@@ -34,8 +34,8 @@ export default class SideBar extends Component {
     return (
       <Container>
         <Content>
-          <View style={{ height: 240, justifyContent: "center", alignItems: "center", backgroundColor: '#f94840' }} >
-            <Image square style={{ height: 200, width: 200 }} source={LOGO} />
+          <View style={styles.header} >
+            <Image square style={styles.logo} source={LOGO} />
             <TouchableWithoutFeedback onPress={() => navigate("Login", {Drawer: true})}>
               <View>
                 <Text style={styles.name}>{this.state.name}</Text>
@@ -58,6 +58,16 @@ export default class SideBar extends Component {
 }
 
 const styles = StyleSheet.create({
+  header: {
+    height: 240, 
+    justifyContent: "center", 
+    alignItems: "center", 
+    backgroundColor: '#f94840'
+  },
+  logo: {
+    height: 200, 
+    width: 200
+  },
   name: {
     color: "#FFF",
     fontWeight: "bold",

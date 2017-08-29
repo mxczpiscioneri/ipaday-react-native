@@ -3,7 +3,9 @@ package com.ipaday;
 import android.app.Application;
 
 import io.invertase.firebase.RNFirebasePackage;
+import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
 import io.invertase.firebase.auth.RNFirebaseAuthPackage;
+import io.invertase.firebase.database.RNFirebaseDatabasePackage;
 
 import com.facebook.react.ReactApplication;
 import com.facebook.FacebookSdk;
@@ -38,7 +40,9 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
             new RNFirebasePackage(),
+            new RNFirebaseAnalyticsPackage(),
             new RNFirebaseAuthPackage(),
+            new RNFirebaseDatabasePackage(),
             new FBSDKPackage(mCallbackManager),
             new ReactNativeConfigPackage()
       );

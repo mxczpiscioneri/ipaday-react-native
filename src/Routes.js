@@ -13,7 +13,7 @@ export default AppNavigator = DrawerNavigator ({
     Login: { screen: Login, navigationOptions: { title: "Login", header: null } },
 },
 {
-  initialRouteName: 'Login',
+  initialRouteName: 'Beers',
   contentComponent: props => <SideBar {...props} />,
   contentOptions: { activeTintColor: '#f94840', style: { backgroundColor: 'black', flex: 1 } }
 });
