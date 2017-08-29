@@ -9,4 +9,4 @@ export default class ipaday extends Component {
   }
 }
 
-AppRegistry.registerComponent('ipaday', () => ipaday);
+AppRegistry.registerComponent('IPADAY', () => ipaday);
